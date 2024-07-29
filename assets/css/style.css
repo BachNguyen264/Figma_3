@@ -433,3 +433,43 @@ a{
     margin-top: 38px;
     justify-content: center;
 }
+/* ====================install================ */
+.install__inner{
+    margin: 180px 0 85px;
+    height: 427px;
+    border-radius: 4px;
+    background: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 70px;
+    position: relative;
+}
+
+.install__img{
+    width: 284px;
+    height: 522px;
+    object-fit: cover;
+    position: absolute;
+    bottom: 0;
+    /* position: relative;
+    bottom: 46px; */
+}
+
+.install__content{
+    width: 586px;
+}
+.install__heading{
+    max-width: 489px;
+    color: #FFF;
+}
+.install__desc{
+    max-width: 586px;
+    color: #FFF;
+}
+.install__row{
+    margin-top: 38px;
+    display: flex;
+    column-gap: 28px;
+    align-items: center;
+}
