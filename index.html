@@ -91,6 +91,8 @@
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <!-- style CSS -->
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Shine Smile</title>
   </head>
   <body>
@@ -174,7 +176,8 @@
               <img
                 src="./assets/img/Service.jpg"
                 alt="Our services"
-                class="service__img"
+                class="service__img" 
+                data-aos="zoom-in-up"
               />
             </figure>
             <!-- service right -->
@@ -347,7 +350,7 @@
       <section class="team">
         <div class="container">
           <div class="team-header">
-            <h2 class="section-heading">Our virtual dentist</h2>
+            <h2 class="section-heading" data-aos="flip-right">Our virtual dentist</h2>
             <a href="#!" class="btn team__btn">Meet our dentist</a>
           </div>
           <div class="team-list">
@@ -358,6 +361,8 @@
                   src="./assets/img/doctor1.png"
                   alt="Dr. Essence Page"
                   class="team-item__thumb"
+                  data-aos="fade-up-right"
+                  data-aos-offset="250"
                 />
               </div>
               <h3 class="team-item__name">Dr. Essence Page</h3>
@@ -370,6 +375,8 @@
                   src="./assets/img/doctor2.png"
                   alt="Dr. Essence Page"
                   class="team-item__thumb"
+                  data-aos="fade-up"
+                  data-aos-offset="250"
                 />
               </div>
               <h3 class="team-item__name">Dr. Essence Page</h3>
@@ -382,6 +389,8 @@
                   src="./assets/img/doctor3.png"
                   alt="Dr. Essence Page"
                   class="team-item__thumb"
+                  data-aos="fade-up"
+                  data-aos-offset="250"
                 />
               </div>
               <h3 class="team-item__name">Dr. Essence Page</h3>
@@ -394,6 +403,8 @@
                   src="./assets/img/doctor4.png"
                   alt="Dr. Essence Page"
                   class="team-item__thumb"
+                  data-aos="fade-up-left"
+                  data-aos-offset="250"
                 />
               </div>
               <h3 class="team-item__name">Dr. Essence Page</h3>
@@ -721,5 +732,10 @@
         </div>
       </div>
     </footer>
+    <!-- Js animation -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
